@@ -21,6 +21,8 @@ Aquí se encuentran los scripts SQL del proyecto **Autos NARLA**.
  
   - - `insertarClientesyVentas` script para rellenar la tabla de datos.
    
+    -  - - `insertarClientes` script para rellenar la tabla de datos.
+   
     - - `InsertarVehiculos`script para rellenar la tabla de datos.
     
     -- `Consultas` script dictadas en el proyecto.
