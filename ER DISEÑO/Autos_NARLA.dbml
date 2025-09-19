@@ -1,0 +1,49 @@
+Table Marca {
+  MarcaID int [pk, increment] // Identificador único de la marca
+  NombreMarca varchar(100) [not null, unique]
+}
+
+Table Modelo {
+  ModeloID int [pk, increment]
+  MarcaID int [ref: > Marca.MarcaID]
+  NombreModelo varchar(100) [not null]
+}
+
+Table Vehiculo {
+  VehiculoID int [pk, increment]
+  MarcaID int [ref: > Marca.MarcaID]
+  ModeloID int [ref: > Modelo.ModeloID]
+  Ano int [not null]
+  AnoProduccion int
+  Chasis varchar(20) [unique, not null] // Número de chasis 
+  Combustible varchar(20)
+  Cilindraje int
+  TipoVehiculo varchar(50)
+  PrecioAdquisicion decimal(10,2)
+  PrecioVenta decimal(10,2)
+  Estado varchar(20) [default: 'Disponible'] // Disponible / Vendido
+  FechaRegistro datetime [default: `GETDATE()`]
+}
+
+Table FotoVehiculo {
+  FotoID int [pk, increment]
+  VehiculoID int [ref: > Vehiculo.VehiculoID]
+  RutaFoto varchar(255) 
+}
+
+Table Cliente {
+  ClienteID int [pk, increment]
+  Nombres varchar(100)
+  Apellidos varchar(100)
+  Telefono varchar(20)
+  Correo varchar(100)
+  Direccion varchar(255)
+}
+
+Table Venta {
+  VentaID int [pk, increment]
+  VehiculoID int [ref: > Vehiculo.VehiculoID]
+  ClienteID int [ref: > Cliente.ClienteID]
+  FechaVenta datetime [default: `GETDATE()`]
+  PrecioVenta decimal(10,2)
+  DescuentoAplicado decimal(4,2) // Máx. 10%
