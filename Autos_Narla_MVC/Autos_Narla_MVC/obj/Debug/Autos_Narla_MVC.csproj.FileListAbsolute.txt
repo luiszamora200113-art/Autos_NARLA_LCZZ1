@@ -1,0 +1,11 @@
+C:\Users\lcent\OneDrive\Documents\Visual Studio 2022\Autos_Narla_MVC\Autos_Narla_MVC\bin\Debug\Autos_Narla_MVC.exe.config
+C:\Users\lcent\OneDrive\Documents\Visual Studio 2022\Autos_Narla_MVC\Autos_Narla_MVC\bin\Debug\Autos_Narla_MVC.exe
+C:\Users\lcent\OneDrive\Documents\Visual Studio 2022\Autos_Narla_MVC\Autos_Narla_MVC\bin\Debug\Autos_Narla_MVC.pdb
+C:\Users\lcent\OneDrive\Documents\Visual Studio 2022\Autos_Narla_MVC\Autos_Narla_MVC\obj\Debug\Autos_Narla_MVC.csproj.AssemblyReference.cache
+C:\Users\lcent\OneDrive\Documents\Visual Studio 2022\Autos_Narla_MVC\Autos_Narla_MVC\obj\Debug\Autos_Narla_MVC.Properties.Resources.resources
+C:\Users\lcent\OneDrive\Documents\Visual Studio 2022\Autos_Narla_MVC\Autos_Narla_MVC\obj\Debug\Autos_Narla_MVC.csproj.GenerateResource.cache
+C:\Users\lcent\OneDrive\Documents\Visual Studio 2022\Autos_Narla_MVC\Autos_Narla_MVC\obj\Debug\Autos_Narla_MVC.csproj.CoreCompileInputs.cache
+C:\Users\lcent\OneDrive\Documents\Visual Studio 2022\Autos_Narla_MVC\Autos_Narla_MVC\obj\Debug\Autos_Narla_MVC.exe
+C:\Users\lcent\OneDrive\Documents\Visual Studio 2022\Autos_Narla_MVC\Autos_Narla_MVC\obj\Debug\Autos_Narla_MVC.pdb
+C:\Users\lcent\OneDrive\Documents\Visual Studio 2022\Autos_Narla_MVC\Autos_Narla_MVC\obj\Debug\Autos_Narla_MVC.Views.FrmMenuPrincipal.resources
+C:\Users\lcent\OneDrive\Documents\Visual Studio 2022\Autos_Narla_MVC\Autos_Narla_MVC\obj\Debug\AutosNARLA_MVC.Views.FrmVehiculos.resources
